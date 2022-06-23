@@ -8,3 +8,36 @@
 .navbar {
   background-color: black;
 }
+
+.intro {
+  margin-top: 175px;
+}
+
+@media all and (max-width: 768px) {
+  .intro {
+    margin-top: 100px;
+  }
+}
+
+.about-content {
+  margin-left: 10%;
+}
+
+@media all and (max-width: 768px) {
+  .about-content {
+  margin-left: 0;
+  }
+}
+
+.name {
+  font-weight: 700;
+}
+
+.pro-title {
+  font-weight: 600;
+  color: #b6d2f8;
+}
+
+.logo {
+  height: 35px;
+}
