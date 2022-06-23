@@ -27,13 +27,13 @@
               <a class="nav-link px-4" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4" href="#">About</a>
+              <a class="nav-link px-4" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4" href="#">Portfolio</a>
+              <a class="nav-link px-4" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-4" href="#">Contact</a>
+              <a class="nav-link px-4" href="#contact">Contact</a>
             </li>
             </li>
           </ul>
@@ -49,9 +49,9 @@
              <h1 class="name display-1 text-white text-center text-md-start">Michael Seneca</h1>
              <h4 class="pro-title text-center text-md-start text-uppercase">Web Developer</h4>
              <div class="skill-logos d-flex justify-content-center justify-content-md-start pt-3">
-               <img class="logo me-2" src="./images/html5-brands.png">
-               <img class="logo me-2" src="./images/css3-alt-brands.png">
-               <img class="logo" src="./images/bootstrap-brands.png">
+               <img class="logo me-2" src="./images/html5-brands.png" alt="html5 logo">
+               <img class="logo me-2" src="./images/css3-alt-brands.png" alt="css3 logo">
+               <img class="logo" src="./images/bootstrap-brands.png" alt="bootstrap logo">
             </div>
           </div>
          </div>
@@ -61,25 +61,58 @@
      <!--Portfolio-->
      <div class="container-fluid position-relative" id="portfolio">
        <div class="row">
-         <div class="col-12">
+         <div class="col-12 portfolio-container">
+           <h3 class="portfolio-title mt-3 text-center">Portfolio</h3>
           <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 px-md-4">
+              <div class="card border-secondary mt-3 mb-5">
+                <a href="https://polite-sundae-7e07ff.netlify.app"><img class="card-img-top" src="./images/port-apple.jpg" alt="Apple Clone"></a>
+                <div class="card-body">
+                  <h5 class="card-title">Apple Clone</h5>
+                  <p class="card-text">Altcademy HTML/CSS Development Course Assignment.</p>
+                </div>
+              </div>
             </div>
-            <div class="col-12 col-md-4">
+          <div class="col-12 col-md-4 px-md-4">
+            <div class="card border-0 mt-3 mb-5">
+              <a href="https://bright-lokum-fbc8dc.netlify.app"><img class="card-img-top" src="./images/port-newsweek.jpg" alt="Newsweek Clone"></a>
+              <div class="card-body">
+                <h5 class="card-title">Newsweek Clone</h5>
+                <p class="card-text">Altcademy HTML/CSS Development Course Assignment.</p>
+              </div>
             </div>
-            <div class="col-12 col-md-4">
+          </div>
+          <div class="col-12 col-md-4 px-md-4">
+            <div class="card border-0 mt-3 mb-5">
+              <a href="https://singular-manatee-c194e4.netlify.app"><img class="card-img-top" src="./images/port-airbnb.jpg" alt="Airbnb Clone"></a>
+              <div class="card-body">
+                <h5 class="card-title">Airbnb Clone</h5>
+                <p class="card-text">Altcademy HTML/CSS Development Course Assignment.</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
       <!--Contact-->
       <div class="container-fluid position-relative" id="contact">
         <div class="row">
-          <div class="col-12 col-md-6">
-          </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 d-flex justify-content-center">
+            <div class="contact-form my-5">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email Address</label>
+              </div>
+              <div class="form-floating">
+                <input type="text" class="form-control" id="floatingPassword" placeholder="Message">
+                <label for="floatingPassword">Message</label>
+              </div>
           </div>
         </div>
       </div>

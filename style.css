@@ -41,3 +41,11 @@
 .logo {
   height: 35px;
 }
+
+.portfolio-container {
+  background-color: black;
+}
+
+.portfolio-title {
+color: #8c8c8c;
+}
