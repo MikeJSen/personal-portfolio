@@ -64,7 +64,7 @@
 
 .contact-container {
   width: 100%;
-  background-color: rgb(0,0,0,0.6)
+  background-color: rgba(0,0,0,0.6)
 }
 
 @media all and (min-width: 768px) {
@@ -95,3 +95,34 @@
 }
 
 /*Footer*/
+
+
+footer {
+  background-color: black;
+  color: #8c8c8c;
+}
+
+.container-fluid {
+    padding: 0!important;
+}
+
+.footer-link {
+  color: #8c8c8c;
+  text-decoration: none;
+  }
+
+.footer-link a:link {
+    color: #8c8c8c;
+  }
+
+.footer-link a:visited {
+  color: #8c8c8c;
+}
+
+.footer-link a:hover {
+  color: #bfbfbf!important;
+}
+
+.footer-link a:active {
+  color: #ffffff;
+}
