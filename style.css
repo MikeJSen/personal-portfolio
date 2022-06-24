@@ -1,3 +1,5 @@
+/*Background*/
+
  .bg-image {
   width: 100%;
   background-size: cover;
@@ -5,9 +7,14 @@
   background-position: center;
   position: fixed;
 }
+
+/*Nav*/
+
 .navbar {
   background-color: black;
 }
+
+/*About*/
 
 .intro {
   margin-top: 175px;
@@ -42,10 +49,49 @@
   height: 35px;
 }
 
+/*Portfolio*/
+
 .portfolio-container {
   background-color: black;
 }
 
 .portfolio-title {
-color: #8c8c8c;
+  font-weight: 600;
+  color: #b6d2f8;
 }
+
+/*Contact*/
+
+.contact-container {
+  width: 100%;
+  background-color: rgb(0,0,0,0.6)
+}
+
+@media all and (min-width: 768px) {
+  .contact-container{
+    width: 75%;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .contact-container{
+    width: 50%;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .contact-container{
+    width: 30%;
+  }
+}
+
+.contact-title {
+  font-weight: 600;
+  color: #b6d2f8;
+}
+
+#floating-input-comments {
+  height: 175px;
+}
+
+/*Footer*/
