@@ -96,14 +96,9 @@
 
 /*Footer*/
 
-
-footer {
+#footer {
   background-color: black;
   color: #8c8c8c;
-}
-
-.container-fluid {
-    padding: 0!important;
 }
 
 .footer-link {
@@ -111,18 +106,18 @@ footer {
   text-decoration: none;
   }
 
-.footer-link a:link {
+a.footer-link:link {
     color: #8c8c8c;
   }
 
-.footer-link a:visited {
+a.footer-link:visited {
   color: #8c8c8c;
 }
 
-.footer-link a:hover {
+a.footer-link:hover {
   color: #bfbfbf!important;
 }
 
-.footer-link a:active {
+a.footer-link:active {
   color: #ffffff;
 }
